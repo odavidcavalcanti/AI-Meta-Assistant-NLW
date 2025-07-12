@@ -82,13 +82,14 @@ form {
 }
 
 input,
-select {
+textarea {
     all: unset;
     border: 2px solid #9147ff;
     border-radius: 0.5rem;
     padding: 1.125rem;
     font-size: 0.875rem;
     background-color: #00000066;
+    margin-left: -1rem;
 }
 
 input {
@@ -152,4 +153,26 @@ button:disabled {
 
 .response-content p {
     text-align: center;
+}
+
+#apiKeyInput {
+    display: none;
+}
+
+#form-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.title,
+#askButton,
+p {
+    align-self: center;
+}
+
+#questionInput {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    overflow-y: auto;
 }

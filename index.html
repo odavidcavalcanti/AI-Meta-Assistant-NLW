@@ -22,32 +22,28 @@
 
     <main>
         <section>
-            <div>
+            <div id="form-box">
                 <h2 class="title">Assistente de Meta</h2>
                 <p>Pergunte sobre estratégias, build e dicas sobre seus jogos!</p>
 
                 <form id="form">
-                    <input id="apiKeyInput" type="password" placeholder="Informe a API KEY do Gemini" required>
+                    <input id="apiKeyInput" type="password" placeholder="Informe a API KEY do Gemini">
 
-                    <select id="gameSelect">
-                        <option value="">
-                            Selecione um jogo
-                        </option>
-                        <option value="valorant">Valorant</option>
-                        <option value="lol">League of Legends</option>
-                        <option value="csgo">CS:GO</option>
+                    <input id="gameSelect" type="text"
+                        placeholder="Sobre qual jogo deseja perguntar? Ex: Valorant, Call of Duty, GTA...">
 
-                        <input id="questionInput" type="text" placeholder="Ex: Melhor build para ADC..." required>
+                    <textarea id="questionInput" type="text"
+                        placeholder="Qual sua pergunta? Ex: Melhor build para ADC..." required></textarea>
 
-                        <div id="aiResponse" class="hidden">
-                            <div class="response-content">
+                    <div id="aiResponse" class="hidden">
+                        <div class="response-content">
 
-                            </div>
                         </div>
+                    </div>
 
-                        <button id="askButton">
-                            Perguntar
-                        </button>
+                    <button id="askButton">
+                        Perguntar
+                    </button>
                     </select>
                 </form>
 
