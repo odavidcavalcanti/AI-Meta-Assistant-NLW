@@ -1,5 +1,7 @@
 # 🎮 Ai Meta Assistant NLW
 
+<img src="./assets/NLW Agents.png">
+
 Projeto desenvolvido durante o evento **NLW 20** promovido pela [Rocketseat](https://www.rocketseat.com.br/), com foco no aprendizado dos fundamentos do desenvolvimento web.
 
 ## 📚 Sobre o Projeto
