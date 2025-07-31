@@ -33,7 +33,7 @@ Este projeto está versionado com [Git] e hospedado no [GitHub](https://github.c
 
 O deploy foi realizado na [Vercel](https://ai-meta-assistant-nlw.vercel.app/), proporcionando acesso rápido e fácil ao projeto em ambiente web.
 
-- 🔗 **Repositório GitHub:** [https://github.com/deeolic/AI-Meta-Assistant-NLW](https://github.com/deeolic/AI-Meta-Assistant-NLW)
+- 🔗 **Repositório GitHub:** [https://github.com/odavidcavalcanti/AI-Meta-Assistant-NLW](https://github.com/odavidcavalcanti/AI-Meta-Assistant-NLW)
 
 - 🌐 **Deploy na Vercel:** [https://ai-meta-assistant-nlw.vercel.app/](https://ai-meta-assistant-nlw.vercel.app/)
 
