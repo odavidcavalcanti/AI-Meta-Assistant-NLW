@@ -156,7 +156,8 @@ button:disabled {
 }
 
 #apiKeyInput {
-    display: none;
+    display: flex;
+    flex-direction: column;
 }
 
 #form-box {

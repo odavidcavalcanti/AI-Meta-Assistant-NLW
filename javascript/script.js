@@ -70,7 +70,7 @@ const askAI = async (question, game, apiKey) => {
 
 const sendForm = async (event) => {
     event.preventDefault()
-    const apiKey = 'AIzaSyBEOPguNHKKrSZ30wYodGWR-p_7bNQQIGU'
+    const apiKey = apiKeyInput.value
     const game = gameSelect.value
     const question = questionInput.value
 
